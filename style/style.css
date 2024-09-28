@@ -38,6 +38,7 @@ header > div {
 }
 
 main {
+    background-color: #F4F6F5;
     padding: 0 165px;
 }
 
@@ -172,4 +173,41 @@ h3 {
 
 .price_card {
     margin: 30px 0px 20px 20px;
+}
+
+.rectangle {
+    display: block;
+    background: linear-gradient(rgba(22, 3, 3, 0.075), rgba(0, 0, 0, 0.8)),  url('../img/Rectangle.png');
+    height: 574px;
+    margin: 0 -165px;
+    opacity: 0.7;
+}
+
+.rectangle > * {
+    margin-left: 165px;
+}
+
+.h2_rectangle {
+    display: inline-flex;
+    margin: 70px 0px 20px 165px;
+}
+
+.h2_rectangle > h2 {
+    margin-left: 20px;
+    width: 421px;
+    color: #F4F6F5;
+}
+
+.rectangle > p {
+    width: 540px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.promo_btn {
+    margin-top: 60px;
+    background-color: #EEDB6D;
+    border: 0px;
+    color: #2c2d35;
 }
