@@ -71,12 +71,12 @@ h1 > em {
     font-style: normal;
 }
 
-.title_hero > p {
+p {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
     color: #86928b;
-    width: 530px;
+    /* width: 530px; */
 }
 
 .primary_btn {
@@ -129,22 +129,47 @@ h2 {
 }
 
 .catalog_main {
-    display: flex;
-    width: 1110;
-    height: 1490;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+    /* width: 1110;
+    height: 1490; */
+    /* flex-direction: row;
 	flex-wrap: wrap;
-    margin: 0 -15px;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 -15px; */
 }
 
 .card_art {
     width: 350px;
     height: 730px;
     background-color:  #e1ede6;;
-    margin: 30px 30px 0 0px;
+    /* margin: 30px 30px 0 0px; */
 
 }
 
 .art_img {
+    width: 310px;
+    height: 422px;
     margin: 20px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #2c2d35;
+}
+
+.card_art > .primary_btn {
+    width: 310px;
+    height: 65px;
+}
+
+.card_art > * {
+    margin-left: 20px;
+}
+
+.price_card {
+    margin: 30px 0px 20px 20px;
 }
