@@ -101,6 +101,27 @@ p {
     bottom: 0px;
 }
 
+.primary_btn:focus {
+    background-color: #D4E8D9;
+}
+
+.primary_btn:active {
+    background-color: #376B44;
+    position: absolute;
+    bottom: -1px;
+    color: #F4F6F5;
+}
+
+.title_hero > .primary_btn:active {
+    position: absolute;
+    bottom: -1px;
+}
+
+.primary_btn:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
 h2 {
     font-size: 40px;
     line-height: 110%;
@@ -126,12 +147,35 @@ h2 {
 .tab_btn {
     border-radius: 20px;
     text-align: center;
-    line-height: 2.2em;
+    line-height: 2em;
     width: 126px;
     height: 43px;
     background: #d4e8d9;
     font-size: 20px;
     color: #2c2d35;;
+    border: 0px;
+}
+
+.tab_btn:active {
+    background-color: #376B44;
+    position: relative;
+    top: 1px;
+}
+
+.tab_btn:focus {
+    background-color: #D4E8D9;
+    border: 2px solid #598d66;
+}
+
+.tab_btn:active {
+    background-color: #376B44;
+    color: #F4F6F5;
+
+}
+
+.tab_btn:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
 }
 
 .catalog_main {
@@ -150,7 +194,7 @@ h2 {
 .card_art {
     width: 350px;
     height: 730px;
-    background-color:  #e1ede6;;
+    background-color:  #E1EDE6;;
     /* margin: 30px 30px 0 0px; */
 
 }
@@ -170,6 +214,18 @@ h3 {
 .card_art > .primary_btn {
     width: 310px;
     height: 65px;
+    background-color: #e1ede6;
+}
+
+.card_art > .primary_btn:active {
+    position: relative;
+    background-color: #376B44;
+    color: #F4F6F5;
+}
+
+.primary_btn:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
 }
 
 .card_art > * {
